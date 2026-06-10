@@ -1,0 +1,109 @@
+/* Lead- Card Css */
+.lead-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.lead-card:hover {
+    transform: translateY(-5px);
+}
+
+.lead-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lead-header h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #212529;
+}
+
+.lead-body p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.status {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.New {
+    background-color: #0d6efd;
+}
+
+.Followu {
+    background-color: orange;
+}
+
+.Converted {
+    background-color: green;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .lead-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .lead-header h3 {
+        font-size: 20px;
+    }
+
+    .lead-body p {
+        font-size: 15px;
+    }
+
+    .status {
+        font-size: 13px;
+        padding: 5px 12px;
+    }
+
+}
+/* lead card end */
+
+/* LeadForm */
+.lead-form {
+    width: 600px;
+    background-color: white;
+    border-radius: 12px solid black;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input {
+    /* width: 100%; */
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
