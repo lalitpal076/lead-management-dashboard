@@ -107,3 +107,36 @@ form input {
     box-sizing: border-box;
 }
 
+
+
+.side-ul{
+    border: 1px solid transparent;
+    padding: 0px 20px;
+}
+.side-ul li{
+    background-color: #ccc;
+    border-radius: 2rem;
+}
+.side-ul li{
+    font-size: large;
+    font-weight: 600;
+
+}
+.side-ul li:active{
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+/* Filter Ul */
+.filter-ul{
+    padding:0 1rem;
+}
+.filter-ul li{
+    list-style:none;
+    margin: 0.2rem;
+    text-align: start;
+    padding:0 2rem;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+}
