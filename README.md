@@ -1,4 +1,7 @@
-# Lead Management Dashboard
+# Lead Management Dashboard 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://lead-management-dashboard-3rr95xogc-lalit-s-team1.vercel.app/)
+
+
 
 A simple Lead Management Dashboard built using **React** and **Bootstrap**.
 
